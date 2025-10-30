@@ -1,0 +1,59 @@
+{
+  "dataset_info": {
+    "total_farmers": 500,
+    "features_count": 15,
+    "counties": [
+      "Meru",
+      "Nakuru",
+      "Kiambu",
+      "Uasin Gishu",
+      "Bungoma"
+    ],
+    "date_range": {
+      "start": "2023-11-02",
+      "end": "2025-09-30"
+    }
+  },
+  "credit_score_stats": {
+    "mean": 85.03,
+    "median": 97.65,
+    "std": 22.72,
+    "min": 13.1,
+    "max": 100.0
+  },
+  "farmer_types": {
+    "excellent": 117,
+    "average": 290,
+    "struggling": 93
+  },
+  "county_stats": {
+    "count": {
+      "Bungoma": 110,
+      "Kiambu": 93,
+      "Meru": 96,
+      "Nakuru": 102,
+      "Uasin Gishu": 99
+    },
+    "mean": {
+      "Bungoma": 83.44,
+      "Kiambu": 87.05,
+      "Meru": 85.42,
+      "Nakuru": 86.94,
+      "Uasin Gishu": 82.53
+    }
+  },
+  "top_features": {
+    "credit_score": 1.0,
+    "loan_repayment_history": 0.8642870706581829,
+    "cooperative_endorsement": 0.847723768498802,
+    "growing_season_match": 0.7757538389885978,
+    "fertilizer_purchase_timing": 0.7604041363303937,
+    "transaction_velocity": 0.7461969435968002,
+    "mean_ndvi": 0.7131262563574488,
+    "chama_participation": 0.6259530835646882
+  },
+  "visualizations": [
+    "data_exploration.png",
+    "correlation_matrix.png"
+  ]
+}

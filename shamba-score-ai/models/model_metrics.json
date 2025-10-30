@@ -1,0 +1,81 @@
+{
+  "performance": {
+    "train_mae": 0.41273391628265393,
+    "test_mae": 3.2458010215759274,
+    "train_r2": 0.9993161272295237,
+    "test_r2": 0.956568727968476,
+    "train_rmse": 0.5914594284081606,
+    "test_rmse": 4.7908496646369665
+  },
+  "fairness": {
+    "gender_M_mae": 1.0785175129405238,
+    "gender_F_mae": 0.8478891975935118,
+    "county_Meru_mae": 1.4131432195504512,
+    "county_Nakuru_mae": 0.9043783561856142,
+    "county_Kiambu_mae": 1.0234384331651913,
+    "county_Uasin Gishu_mae": 0.8869916472772157,
+    "county_Bungoma_mae": 0.7161216354370116
+  },
+  "feature_importance": [
+    {
+      "feature": "growing_season_match",
+      "importance": 0.5801195502281189
+    },
+    {
+      "feature": "cooperative_endorsement",
+      "importance": 0.23088353872299194
+    },
+    {
+      "feature": "chama_participation",
+      "importance": 0.06401398777961731
+    },
+    {
+      "feature": "loan_repayment_history",
+      "importance": 0.04878069460391998
+    },
+    {
+      "feature": "fertilizer_purchase_timing",
+      "importance": 0.0308900848031044
+    },
+    {
+      "feature": "savings_rate",
+      "importance": 0.008149207569658756
+    },
+    {
+      "feature": "mean_ndvi",
+      "importance": 0.007632672321051359
+    },
+    {
+      "feature": "transaction_velocity",
+      "importance": 0.006025159731507301
+    },
+    {
+      "feature": "neighbor_vouches",
+      "importance": 0.00554826483130455
+    },
+    {
+      "feature": "seed_quality_tier",
+      "importance": 0.004286677576601505
+    },
+    {
+      "feature": "drought_exposure_index",
+      "importance": 0.003512027207762003
+    },
+    {
+      "feature": "temperature_anomaly",
+      "importance": 0.0030645967926830053
+    },
+    {
+      "feature": "ndvi_trend",
+      "importance": 0.0028411399107426405
+    },
+    {
+      "feature": "rainfall_deviation",
+      "importance": 0.002729747211560607
+    },
+    {
+      "feature": "advisory_usage",
+      "importance": 0.001522635924629867
+    }
+  ]
+}
